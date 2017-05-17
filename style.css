@@ -43,7 +43,7 @@ main {
   margin: 30px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  padding: 50px;
+  padding: 50px 0;
 }
 
 .clearfix {
@@ -54,7 +54,8 @@ main {
 .intro {
   width: 60%;
   float:left;
-  padding: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   display: inline-block;
 }
 
@@ -65,27 +66,40 @@ main {
 }
 
 .intro p {
+  width: 90%;
   font-family: serif;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .avatar {
   float: right;
   width: 40%;
   display: inline-block;
+  text-align: center;
 }
 
 .avatar img {
-  width: 100%;
+  width: 80%;
   height: auto;
   max-height: 400px;
   padding: 3px;
   border: 1px solid black;
 }
 
+h4 {
+  font-weight: normal;
+}
+
 #Portfolio ul li img {
   max-width: 800px;
-  margin: 0 auto;
+}
+
+.two {
+  font-style: italic;
+}
+
+.date {
+  font-size: 14px;
 }
 
 .links {
@@ -101,3 +115,5 @@ a {
   color: black;
   font-weight: bold;
 }
+
+#Education
