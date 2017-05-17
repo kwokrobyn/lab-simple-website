@@ -1,0 +1,88 @@
+/* normalize */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/*top black line is a border of body wrapper*/
+.wrapper {
+  margin: auto 50px;
+  margin-top: 30px;
+  border-top: 5px solid black;
+}
+
+/* Header */
+
+header ul {
+  padding-left: 0; /* remove default ul styling */
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+header ul li {
+  display: inline;
+}
+
+header ul li:first-child {
+  border-right: 1px #000000 solid;
+  padding-right: 8px;
+}
+
+header ul li:last-child {
+  border-left: 1px #000000 solid;
+  padding-left: 8px;
+}
+
+header nav .active {
+  font-style: italic;
+}
+
+header h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Main */
+main {
+  border-top: 1px #000 solid;
+  border-bottom: 1px #000 solid;
+  margin: auto 50px;
+}
+
+main div {
+  padding: 40px;
+}
+
+main .about {
+  width: 60%;
+  height: 300px;
+  display: inline-block;
+  float: left;
+}
+
+main .profile {
+  width: 40%;
+  height: 300px;
+  display: inline-block;
+  float: right;
+}
+
+/*resize img based on width*/
+main .profile img {
+  width: 100%;
+  height: auto;
+  padding: 3px;
+  border: 1px solid black;
+}
+
+/* clearfloat since inline-block elems were floated*/
+.clearfloat {
+  clear: both;
+}
